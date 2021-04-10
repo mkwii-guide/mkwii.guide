@@ -17,7 +17,7 @@
 	margin: 0 auto;
 } .top {
     background: radial-gradient(var(--mkwii) 0%, #28acf300 40%);
-    border-bottom: 3px solid var(--mkwii)
+    border-bottom: 4px solid var(--mkwii)
 } h1, h2, h3, h4, h5, h6 {
     color: #FFF;
     text-align: center;

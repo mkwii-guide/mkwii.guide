@@ -8,7 +8,8 @@
     margin-top: 1em;
     margin-right: auto;
     padding-left: 1em;
-    padding-right: 1em
+    padding-right: 1em;
+    transition: all 0.1s
 } .container {
 	background-color: white;
 	border: 1px solid var(--mkwii);
@@ -35,4 +36,15 @@
     text-decoration: none
 } a:hover {
     text-decoration: underline
+} ol, ul {
+    margin-top: -10px
+} li {
+    margin-left: -10px;
+    padding-right: 5px
+} @media only screen and (max-width: 800px) {
+    body {
+        margin-top: 0;
+        padding: 0;
+        transition: all 0.1s
+    }
 }
